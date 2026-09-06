@@ -1,0 +1,626 @@
+{
+    "name": "Üzemmérnök-informatikus",
+    "description": "Az Üzemmérnök-informatikus BProf szak tanterve",
+    "curriculum_updated_at": "2025-09-01",
+    "course_blocks": [
+        {
+            "name": "1. félév",
+            "row": 0,
+            "courses": [
+                {
+                    "code": "TE90AX54",
+                    "name": "Bevezető matematika B",
+                    "credits": 3
+                },
+                {
+                    "code": "TE90AX55",
+                    "name": "Kalkulus",
+                    "credits": 6
+                },
+                {
+                    "code": "VISZBA01",
+                    "name": "Algoritmusok és gráfok",
+                    "credits": 5
+                },
+                {
+                    "code": "VIAUBXAG002-00",
+                    "name": "Digitális kompetenciák",
+                    "credits": 3
+                },
+                {
+                    "code": "VIEEBA01",
+                    "name": "A programozás alapjai",
+                    "credits": 7
+                },
+                {
+                    "code": "VIIIBA01",
+                    "name": "Hardver alapok",
+                    "credits": 7
+                },
+                {
+                    "code": "",
+                    "name": "Testnevelés",
+                    "credits": 0
+                }
+            ]
+        },
+        {
+            "name": "2. félév",
+            "row": 0,
+            "courses": [
+                {
+                    "code": "VISZBA02",
+                    "name": "Valószínűségszámítás B",
+                    "credits": 6,
+                    "prerequisites": [
+                        "TE90AX54",
+                        "(TE90AX55)"
+                    ]
+                },
+                {
+                    "code": "TE15AX00",
+                    "name": "Kísérleti fizika",
+                    "credits": 5,
+                    "prerequisites": [
+                        "TE90AX54",
+                        "(TE90AX55)"
+                    ]
+                },
+                {
+                    "code": "VIIIBA02",
+                    "name": "Objektumorientált programozás",
+                    "credits": 7,
+                    "prerequisites": [
+                        "(VIEEBA01)"
+                    ]
+                },
+                {
+                    "code": "VIHIBA01",
+                    "name": "Hálózatok alapjai és üzemeltetése",
+                    "credits": 6,
+                    "prerequisites": [
+                        "(VIEEBA01)",
+                        "(VIIIBA01)"
+                    ]
+                },
+                {
+                    "code": "VIMIBA01",
+                    "name": "Operációs rendszerek B",
+                    "credits": 6,
+                    "prerequisites": [
+                        "(VIIIBA01)"
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "Testnevelés",
+                    "credits": 0
+                }
+            ]
+        },
+        {
+            "name": "3. félév",
+            "row": 0,
+            "courses": [
+                {
+                    "code": "VIAUBB01",
+                    "name": "Eseményvezérelt és vizuális programozás",
+                    "credits": 7,
+                    "prerequisites": [
+                        "VIIIBA02"
+                    ]
+                },
+                {
+                    "code": "VITMBB01",
+                    "name": "Adatkezelés",
+                    "credits": 6,
+                    "prerequisites": [
+                        "(VISZBA01)",
+                        "(VIEEBA01)"
+                    ]
+                },
+                {
+                    "code": "VIAUBB02",
+                    "name": "Szoftvertechnológia és -technikák",
+                    "credits": 7,
+                    "prerequisites": [
+                        "VIIIBA02"
+                    ]
+                },
+                {
+                    "code": "VIHIBB01",
+                    "name": "Kódolás és IT biztonság",
+                    "credits": 5,
+                    "prerequisites": [
+                        "(VIHIBA01)",
+                        "(VIMIBA01)"
+                    ]
+                },
+                {
+                    "code": "VIMIBB01",
+                    "name": "Alkalmazott mesterséges intelligencia",
+                    "credits": 5,
+                    "prerequisites": [
+                        "(VISZBA01)",
+                        "(VIEEBA01)"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "4. félév",
+            "row": 0,
+            "courses": [
+                {
+                    "code": null,
+                    "name": "Kötelezően választható gazdasági-humán tárgy 1",
+                    "credits": 5,
+                    "course_block_references": [
+                        "Karrier támogatás, készségfejlesztés (GTK)",
+                        "Társadalmi beágyazottság (GTK)",
+                        "Üzleti ismeretek (GTK)"
+                    ]
+                },
+                {
+                    "code": "VIHVBB01",
+                    "name": "Jelek és jelfeldolgozás",
+                    "credits": 5
+                },
+                {
+                    "code": "VIEEBB01",
+                    "name": "Elektronika alapjai",
+                    "credits": 5
+                },
+                {
+                    "code": "",
+                    "name": "Specializáció tantárgy 1",
+                    "credits": 5,
+                    "course_block_references": [
+                        "Szoftverfejlesztő specializáció",
+                        "Hálózat és biztonság specializáció",
+                        "Adatalapú rendszerek specializáció",
+                        "Tesztelés és üzemeltetés specializáció"
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "Specializáció tantárgy 2",
+                    "credits": 5,
+                    "course_block_references": [
+                        "Szoftverfejlesztő specializáció",
+                        "Hálózat és biztonság specializáció",
+                        "Adatalapú rendszerek specializáció",
+                        "Tesztelés és üzemeltetés specializáció"
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "Témalaboratórium",
+                    "credits": 4,
+                    "course_block_references": [
+                        "Szoftverfejlesztő specializáció",
+                        "Hálózat és biztonság specializáció",
+                        "Adatalapú rendszerek specializáció",
+                        "Tesztelés és üzemeltetés specializáció"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "5. félév",
+            "row": 0,
+            "courses": [
+                {
+                    "code": null,
+                    "name": "Kötelezően választható gazdasági-humán tárgy 2",
+                    "credits": 3,
+                    "course_block_references": [
+                        "Karrier támogatás, készségfejlesztés (GTK)",
+                        "Társadalmi beágyazottság (GTK)",
+                        "Üzleti ismeretek (GTK)"
+                    ]
+                },
+                {
+                    "code": null,
+                    "name": "Kötelezően választható gazdasági-humán tárgy 3",
+                    "credits": 3,
+                    "course_block_references": [
+                        "Karrier támogatás, készségfejlesztés (GTK)",
+                        "Társadalmi beágyazottság (GTK)",
+                        "Üzleti ismeretek (GTK)"
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "Specializáció laboratórium",
+                    "credits": 6,
+                    "course_block_references": [
+                        "Szoftverfejlesztő specializáció",
+                        "Hálózat és biztonság specializáció",
+                        "Adatalapú rendszerek specializáció",
+                        "Tesztelés és üzemeltetés specializáció"
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "Önálló laboratórium",
+                    "credits": 16
+                },
+                {
+                    "code": "___OPTIONAL___",
+                    "name": "Szabadon választható tantárgy 1",
+                    "credits": 2
+                }
+            ]
+        },
+        {
+            "name": "6. félév",
+            "row": 0,
+            "courses": [
+                {
+                    "code": "",
+                    "name": "Projektgyakorlat",
+                    "credits": 7
+                },
+                {
+                    "code": "",
+                    "name": "Szakdolgozat-készítés",
+                    "credits": 15
+                },
+                {
+                    "code": "___OPTIONAL___",
+                    "name": "Szabadon választható tantárgy 2",
+                    "credits": 4
+                },
+                {
+                    "code": "___OPTIONAL___",
+                    "name": "Szabadon választható tantárgy 3",
+                    "credits": 2
+                },
+                {
+                    "code": "___OPTIONAL___",
+                    "name": "Szabadon választható tantárgy 4",
+                    "credits": 2
+                }
+            ]
+        },
+        {
+            "name": "Szoftverfejlesztő specializáció",
+            "row": 1,
+            "courses": [
+                {
+                    "code": "VIAUBB03",
+                    "name": "Kliensalkalmazások",
+                    "credits": 5
+                },
+                {
+                    "code": "VIAUBB04",
+                    "name": "Háttéralkalmazások",
+                    "credits": 5
+                },
+                {
+                    "code": "VIAUBC01",
+                    "name": "Szoftverfejlesztés laboratórium",
+                    "credits": 6,
+                    "prerequisites": [
+                        "(VIAUBB03)",
+                        "(VIAUBB04)"
+                    ]
+                },
+                {
+                    "code": "VIAUBPBTL05-00",
+                    "name": "Témalaboratórium",
+                    "credits": 4
+                }
+            ]
+        },
+        {
+            "name": "Hálózat és biztonság specializáció",
+            "row": 1,
+            "courses": [
+                {
+                    "code": "VIHIBB02",
+                    "name": "Gyakorlati hálózatbiztonság",
+                    "credits": 5
+                },
+                {
+                    "code": "VIHIBB03",
+                    "name": "Számítógép hálózatok a gyakorlatban",
+                    "credits": 5
+                },
+                {
+                    "code": "VIHIBC01",
+                    "name": "Hálózat és biztonság laboratórium",
+                    "credits": 6,
+                    "prerequisites": [
+                        "(VIHIBB02)",
+                        "(VIHIBB03)"
+                    ]
+                },
+                {
+                    "code": "VIHIBPBTL04-00",
+                    "name": "Témalaboratórium",
+                    "credits": 4
+                }
+            ]
+        },
+        {
+            "name": "Adatalapú rendszerek specializáció",
+            "row": 1,
+            "courses": [
+                {
+                    "code": "VITMBB02",
+                    "name": "Adatalapú megoldások",
+                    "credits": 5
+                },
+                {
+                    "code": "VITMBB03",
+                    "name": "Adatelemzési szoftverek",
+                    "credits": 5
+                },
+                {
+                    "code": "VITMBC01",
+                    "name": "Adatalapú rendszerek laboratórium",
+                    "credits": 6,
+                    "prerequisites": [
+                        "(VITMBB02)",
+                        "(VITMBB03)"
+                    ]
+                },
+                {
+                    "code": "VITMBPBTL04-00",
+                    "name": "Témalaboratórium",
+                    "credits": 4
+                }
+            ]
+        },
+        {
+            "name": "Tesztelés és üzemeltetés specializáció",
+            "row": 1,
+            "courses": [
+                {
+                    "code": "VIAUBB06",
+                    "name": "IT üzemeltetés",
+                    "credits": 5
+                },
+                {
+                    "code": "VIIIBB01",
+                    "name": "Szoftvertesztelés",
+                    "credits": 5
+                },
+                {
+                    "code": "VIIIBC01",
+                    "name": "Tesztelés és üzemeltetés laboratórium",
+                    "credits": 6,
+                    "prerequisites": [
+                        "(VIAUBB06)",
+                        "(VIIIBB01)"
+                    ]
+                },
+                {
+                    "code": "VIAUBPBTL07-00",
+                    "name": "Témalaboratórium",
+                    "credits": 4
+                }
+            ]
+        },
+        {
+            "name": "Karrier támogatás, készségfejlesztés (GTK)",
+            "row": 1,
+            "courses": [
+                {
+                    "code": "GT52BX4K000-00",
+                    "name": "A vezetővé válás pszichológiája",
+                    "credits": 3
+                },
+                {
+                    "code": "GT52BX4K001-00",
+                    "name": "Karriertervezés és önismeret",
+                    "credits": 3
+                },
+                {
+                    "code": "GT52BX4K002-00",
+                    "name": "Munkahelyi sikeresség, kapcsolatépítés",
+                    "credits": 3
+                },
+                {
+                    "code": "GT41BX4K000-00",
+                    "name": "Érveléstechnika-logika",
+                    "credits": 3
+                },
+                {
+                    "code": "GT51BX4K000-00",
+                    "name": "Önmenedzselés a 21. században",
+                    "credits": 3
+                },
+                {
+                    "code": "GT51BX4K001-00",
+                    "name": "Prezentációkészítés",
+                    "credits": 3
+                },
+                {
+                    "code": "GT43BX4K000-00",
+                    "name": "Személyközi kommunikáció",
+                    "credits": 3
+                },
+                {
+                    "code": "GT43BX4K001-00",
+                    "name": "Történetmesélés és kreatív kommunikáció",
+                    "credits": 3
+                }
+            ]
+        },
+        {
+            "name": "Társadalmi beágyazottság (GTK)",
+            "row": 1,
+            "courses": [
+                {
+                    "code": "GT52BX4T001-00",
+                    "name": "Tervezés speciális felhasználók számára",
+                    "credits": 5
+                },
+                {
+                    "code": "GT41BX4T003-00",
+                    "name": "Az európai civilizáció története (mérnököknek)",
+                    "credits": 3
+                },
+                {
+                    "code": "GT41BX4T001-00",
+                    "name": "Etikus döntés és cselekvés",
+                    "credits": 3
+                },
+                {
+                    "code": "GT41BX4T000-00",
+                    "name": "Technológia és ember",
+                    "credits": 3
+                },
+                {
+                    "code": "GT42BX4T000-00",
+                    "name": "A klímaváltozás fenntarthatósági kihívásai",
+                    "credits": 3
+                },
+                {
+                    "code": "GT42BX4T001-00",
+                    "name": "Az EU környezet- és regionális politikája",
+                    "credits": 5
+                },
+                {
+                    "code": "GT30BX4T003-00",
+                    "name": "Iránytű a gazdasági döntésekhez",
+                    "credits": 3
+                },
+                {
+                    "code": "GT43BX4T001-00",
+                    "name": "Gazdaság és kultúra",
+                    "credits": 3
+                },
+                {
+                    "code": "GT43BX4T000-00",
+                    "name": "Technológia, média és kultúra",
+                    "credits": 3
+                },
+                {
+                    "code": "GT55BX4T004-00",
+                    "name": "Alkoss okosan! - szellemi tulajdoni ismeretek a gyakorlatban",
+                    "credits": 3
+                },
+                {
+                    "code": "GT55BX4T005-00",
+                    "name": "Design és szellemi tulajdonjog",
+                    "credits": 3
+                },
+                {
+                    "code": "GT55BX4T000-00",
+                    "name": "Jog a gazdaságban",
+                    "credits": 3
+                },
+                {
+                    "code": "GT55BX4T001-00",
+                    "name": "Jogi alapismeretek VIK-eseknek",
+                    "credits": 3
+                }
+            ]
+        },
+        {
+            "name": "Üzleti ismeretek (GTK)",
+            "row": 1,
+            "courses": [
+                {
+                    "code": "GT41BX4U000-00",
+                    "name": "Technológiaelméletek",
+                    "credits": 3
+                },
+                {
+                    "code": "GT42BX4U000-00",
+                    "name": "A fenntartható fejlődés gazdaságtana",
+                    "credits": 3
+                },
+                {
+                    "code": "GT42BX4U001-00",
+                    "name": "Körforgásos gazdaság",
+                    "credits": 3
+                },
+                {
+                    "code": "GT42BX4U002-00",
+                    "name": "Környezetmenedzsment",
+                    "credits": 3
+                },
+                {
+                    "code": "GT30BX4T002-00",
+                    "name": "Gazdasági GPS",
+                    "credits": 5
+                },
+                {
+                    "code": "GT30BX4U000-00",
+                    "name": "Műszaki folyamatok közgazdasági elemzése",
+                    "credits": 3
+                },
+                {
+                    "code": "GT30BX4U002-00",
+                    "name": "Pénz és pénzrendszerek",
+                    "credits": 3
+                },
+                {
+                    "code": "GT30BX4U001-00",
+                    "name": "Piaci játszmák",
+                    "credits": 3
+                },
+                {
+                    "code": "GT20BX4U000-00",
+                    "name": "Bevezetés a menedzsment döntéshozatalba",
+                    "credits": 3
+                },
+                {
+                    "code": "GT20BX4U003-00",
+                    "name": "E-sport és videójáték-ipar",
+                    "credits": 3
+                },
+                {
+                    "code": "GT20BX4U004-00",
+                    "name": "Marketing",
+                    "credits": 3
+                },
+                {
+                    "code": "GT20BX4U005-00",
+                    "name": "Stratégiai menedzsment",
+                    "credits": 3
+                },
+                {
+                    "code": "GT35BX4U003-00",
+                    "name": "Bankismeretek",
+                    "credits": 3
+                },
+                {
+                    "code": "GT35BX4U002-00",
+                    "name": "Befektetések",
+                    "credits": 3
+                },
+                {
+                    "code": "GT35BX4U006-00",
+                    "name": "Játékelmélet, mint stratégiai döntéshozó eszköz",
+                    "credits": 3
+                },
+                {
+                    "code": "GT35BX4U000-00",
+                    "name": "Pénzügyek",
+                    "credits": 3
+                },
+                {
+                    "code": "GT35BX4U005-00",
+                    "name": "Startup vállalkozások finanszírozása",
+                    "credits": 3
+                },
+                {
+                    "code": "GT35BX4U001-00",
+                    "name": "Számvitel",
+                    "credits": 3
+                },
+                {
+                    "code": "GT35BX4U004-00",
+                    "name": "Vezetői számvitel",
+                    "credits": 3
+                }
+            ]
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 {
-	"name": "Üzemmérnök-informatikus",
-	"description": "Az Üzemmérnök-informatikus BProf szak tanterve",
-	"curriculum_updated_at": "2022-09-01",
-	"course_blocks": [
+    "name": "Üzemmérnök-informatikus (2022-től felvetteknek)",
+    "description": "Az Üzemmérnök-informatikus BProf szak tanterve",
+    "curriculum_updated_at": "2022-09-01",
+    "course_blocks": [
         {
             "name": "1. félév",
             "row": 0,
